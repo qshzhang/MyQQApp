@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5F8A1DAA-985E-4745-919E-EC0967605B60}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>MyQQApp</RootNamespace>
+    <AssemblyName>MyQQApp</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ChatListControl\ChatListBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ChatListControl\ChatListEventArgs.cs" />
+    <Compile Include="ChatListControl\ChatListItem.cs" />
+    <Compile Include="ChatListControl\ChatListItemConverter.cs" />
+    <Compile Include="ChatListControl\ChatListItemIcon.cs" />
+    <Compile Include="ChatListControl\ChatListSubItem.cs" />
+    <Compile Include="ChatListControl\ChatListSubItemConverter.cs" />
+    <Compile Include="ChatListControl\ChatListVScroll.cs" />
+    <Compile Include="common\CommonTools.cs" />
+    <Compile Include="common\DataTransfer.cs" />
+    <Compile Include="common\DBMatchClass.cs" />
+    <Compile Include="common\DBOperator.cs" />
+    <Compile Include="common\GlobalValue.cs" />
+    <Compile Include="common\LogSys.cs" />
+    <Compile Include="common\NetTool.cs" />
+    <Compile Include="common\RightMenu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="common\TcpMessage.cs" />
+    <Compile Include="common\UdpMessage.cs" />
+    <Compile Include="common\User.cs" />
+    <Compile Include="FormControl\ucBackPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormControl\ucBackPanel.Designer.cs">
+      <DependentUpon>ucBackPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormControl\ucDesEdit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormControl\ucDesEdit.Designer.cs">
+      <DependentUpon>ucDesEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormControl\ucLabelEdit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormControl\ucLabelEdit.Designer.cs">
+      <DependentUpon>ucLabelEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormControl\ucMenuItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormControl\ucMenuItem.Designer.cs">
+      <DependentUpon>ucMenuItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormControl\ucSelfHead.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormControl\ucSelfHead.Designer.cs">
+      <DependentUpon>ucSelfHead.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DialogFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DialogFrm.Designer.cs">
+      <DependentUpon>DialogFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmCaptureScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmCaptureScreen.Designer.cs">
+      <DependentUpon>FrmCaptureScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmRecvFile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmRecvFile.Designer.cs">
+      <DependentUpon>FrmRecvFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\LoginFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\LoginFrm.Designer.cs">
+      <DependentUpon>LoginFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MenuFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MenuFrm.Designer.cs">
+      <DependentUpon>MenuFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SearchFriendFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SearchFriendFrm.Designer.cs">
+      <DependentUpon>SearchFriendFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UpdateNameFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\UpdateNameFrm.Designer.cs">
+      <DependentUpon>UpdateNameFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UserInfoFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\UserInfoFrm.Designer.cs">
+      <DependentUpon>UserInfoFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainFrm.Designer.cs">
+      <DependentUpon>MainFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainFrmDealMsg.cs">
+      <DependentUpon>MainFrm.cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainFrmSecCallback.cs">
+      <DependentUpon>MainFrm.cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainFrmTopCallback.cs">
+      <DependentUpon>MainFrm.cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormControl\ucBackPanel.resx">
+      <DependentUpon>ucBackPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormControl\ucDesEdit.resx">
+      <DependentUpon>ucDesEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormControl\ucLabelEdit.resx">
+      <DependentUpon>ucLabelEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormControl\ucMenuItem.resx">
+      <DependentUpon>ucMenuItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormControl\ucSelfHead.resx">
+      <DependentUpon>ucSelfHead.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DialogFrm.resx">
+      <DependentUpon>DialogFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmCaptureScreen.resx">
+      <DependentUpon>FrmCaptureScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmRecvFile.resx">
+      <DependentUpon>FrmRecvFile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\LoginFrm.resx">
+      <DependentUpon>LoginFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MenuFrm.resx">
+      <DependentUpon>MenuFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SearchFriendFrm.resx">
+      <DependentUpon>SearchFriendFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UpdateNameFrm.resx">
+      <DependentUpon>UpdateNameFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UserInfoFrm.resx">
+      <DependentUpon>UserInfoFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainFrm.resx">
+      <DependentUpon>MainFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Away.bmp" />
+    <Content Include="Resources\Away.png" />
+    <Content Include="Resources\Busy.png" />
+    <Content Include="Resources\Dont Disturb.png" />
+    <Content Include="Resources\Invisible.png" />
+    <Content Include="Resources\null.png" />
+    <Content Include="Resources\OffLine.png" />
+    <Content Include="Resources\OnLine.png" />
+    <Content Include="Resources\QMe.png" />
+    <None Include="Resources\_null.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="MainFrmCallback\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
