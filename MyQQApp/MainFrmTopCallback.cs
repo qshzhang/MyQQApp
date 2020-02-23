@@ -63,8 +63,13 @@ namespace MyQQApp
             }
         }
 
-        public void ChatListAddFriend(Friend friend)
+        public void ChatListAddFriend(Boolean isNeedInsert, Friend friend)
         {
+            if(false == isNeedInsert)
+            {
+                MessageBox.Show("Add friend id:" + friend.ID + " failed");
+                return;
+            }
             DBOperator dBOperator = new DBOperator();
             User user = dBOperator.QueryUserInfo(friend.ID);
             ChatListSubItem subItem = new ChatListSubItem(user.Nickname, friend.Remark, user.Signature);

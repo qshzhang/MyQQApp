@@ -62,6 +62,7 @@
     <Compile Include="common\GlobalValue.cs" />
     <Compile Include="common\LogSys.cs" />
     <Compile Include="common\NetTool.cs" />
+    <Compile Include="common\PwdRecord.cs" />
     <Compile Include="common\RightMenu.cs">
       <SubType>Component</SubType>
     </Compile>

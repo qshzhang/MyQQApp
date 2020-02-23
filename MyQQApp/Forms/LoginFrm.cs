@@ -14,6 +14,9 @@ namespace MyQQApp.Forms
 {
     public partial class LoginFrm : Form
     {
+        PwdRecord pwdRecord;
+        Dictionary<string, string> keyValuePairs;
+
         public LoginFrm()
         {
             InitializeComponent();
@@ -23,6 +26,10 @@ namespace MyQQApp.Forms
             ucSelfHead.SelfHeadImage = CommonTools.GetImageByPicName("");
             ucSelfHead.SelfStatusClickCallback += selfStatusClick;
             GlobalValue.myself.Status = UserStatus.Online;
+
+            pwdRecord = new PwdRecord("pwd.db");
+
+            //txtUserId.Text = CommonTools.GetIpAddress();
         }
 
         private void BtnClose()
@@ -73,6 +80,17 @@ namespace MyQQApp.Forms
 
             if (account.Length != GlobalValue.AccountLen) return;
 
+            if(keyValuePairs.Keys.Contains(account))
+            {
+                txtPwd.Text = keyValuePairs[account];
+                checkBoxRememberPwd.Checked = true;
+            }
+            else
+            {
+                txtPwd.Text = "";
+                checkBoxRememberPwd.Checked = false;
+            }
+
             DBOperator dBOperator = new DBOperator();
 
             string name = dBOperator.QueryUserHeadImageName(account);
@@ -104,6 +122,31 @@ namespace MyQQApp.Forms
         {
             ucSelfHead.SelfStatusImage = common.CommonTools.GetImageByType(Convert.ToInt16(type));
             GlobalValue.myself.Status = (GlobalValue.UserStatus)Convert.ToInt16(type);
+        }
+
+        private void checkBoxRememberPwd_CheckStateChanged(object sender, EventArgs e)
+        {
+            if (txtUserId.Text.Trim().Length != GlobalValue.AccountLen) return;
+
+            if (checkBoxRememberPwd.Checked)
+            {
+                pwdRecord.InsertPwd(txtUserId.Text.Trim(), txtPwd.Text.Trim());
+            }
+            else
+            {
+                pwdRecord.RemovePwd(txtUserId.Text.Trim());
+            }
+        }
+
+        private void LoginFrm_Load(object sender, EventArgs e)
+        {
+            keyValuePairs = pwdRecord.ReadAllPwd();
+            foreach(string id in keyValuePairs.Keys)
+            {
+                txtUserId.Items.Add(id);
+            }
+
+            txtUserId.SelectedIndex = 0;
         }
     }
 }

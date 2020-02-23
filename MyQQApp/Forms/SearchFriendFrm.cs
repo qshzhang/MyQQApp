@@ -13,7 +13,7 @@ namespace MyQQApp.Forms
 {
     public partial class SearchFriendFrm : Form
     {
-        public delegate void MainFrmAddFriendCallback(Friend friend);
+        public delegate void MainFrmAddFriendCallback(Boolean isNeedInsert, Friend friend);
         public MainFrmAddFriendCallback mainFrmAddFriendCallback;
         public SearchFriendFrm()
         {
@@ -73,11 +73,11 @@ namespace MyQQApp.Forms
         private void OnAddFriend(User user)
         {
             DBOperator dBOperator = new DBOperator();
-            dBOperator.InsertRelationTab(GlobalValue.myself.ID, user.ID, ((Friend)user).Groupname, ((Friend)user).Remark);
+            Boolean isNeedInsert = dBOperator.InsertRelationTab(GlobalValue.myself.ID, user.ID, ((Friend)user).Groupname, ((Friend)user).Remark);
 
             if(null != mainFrmAddFriendCallback)
             {
-                mainFrmAddFriendCallback((Friend)user);
+                mainFrmAddFriendCallback(isNeedInsert, (Friend)user);
             }
             
         }

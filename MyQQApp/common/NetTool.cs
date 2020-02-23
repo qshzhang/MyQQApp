@@ -23,6 +23,16 @@ namespace MyQQApp.common
             while (IsPortInUsed(p, type)) p++;
             return p;
         }
+
+        public static string GetLocalIpAddress()
+        {
+            string hostName = Dns.GetHostName();   //获取本机名
+            IPHostEntry localhost = Dns.GetHostByName(hostName);    //方法已过期，可以获取IPv4的地址
+                                                                    //IPHostEntry localhost = Dns.GetHostEntry(hostName);   //获取IPv6地址
+            IPAddress localaddr = localhost.AddressList[1];
+
+            return localaddr.ToString();
+        }
     }
 
     public class PortHelper
