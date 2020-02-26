@@ -14,11 +14,13 @@ namespace MyQQApp.common
     {
         public string friendAccount;
         public string newGroupName;
+        public string newGroupId;
 
-        public MoveFriendGroup(string account, string group)
+        public MoveFriendGroup(string account, string groupid, string groupname)
         {
             friendAccount = account;
-            newGroupName = group;
+            newGroupName = groupname;
+            newGroupId = groupid;
         }
 
     }

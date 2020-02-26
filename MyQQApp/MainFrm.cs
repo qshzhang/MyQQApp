@@ -81,28 +81,33 @@ namespace MyQQApp
             List<RelationTab> list = dBOperator.QueryRelationTabByMyAccount(GlobalValue.myself.ID);
             if(list.Count == 0)
             {
-                ChatListItem item = new ChatListItem("friends");
-                chatListBox.Items.Add(item);
+                //ChatListItem item = new ChatListItem("friends");
+                //chatListBox.Items.Add(item);
                 GlobalValue.QQLog.LogWrite(GlobalValue.LOGLEVEL.LOG_LEVEL_INFO, "query no friends");
                 return;
             }
 
             Dictionary<string, List<Friend>> dictionary = new Dictionary<string, List<Friend>>();
-            foreach(RelationTab tab in list)
+
+            Dictionary<string, string> GroupPair = new Dictionary<string, string>();
+
+            foreach (RelationTab tab in list)
             {
-                if(!dictionary.Keys.Contains(tab.GroupName))
+                if(!dictionary.Keys.Contains(tab.GroupID))
                 {
-                    dictionary[tab.GroupName] = new List<Friend>();
+                    dictionary[tab.GroupID] = new List<Friend>();
+                    GroupPair[tab.GroupID] = tab.GroupName;
                 }
             }
 
             foreach (RelationTab tab in list)
             {
-                if (tab.FriendAccount.CompareTo("_0000_") == 0) continue;
+                if (tab.FriendAccount.CompareTo("") == 0) continue;
                 Friend friend = new Friend();
                 friend.Remark = tab.Remark;
                 friend.ID = tab.FriendAccount;
-                friend.Groupname = tab.GroupName;
+                friend.GroupName = tab.GroupName;
+                friend.GroupID = tab.GroupID;
 
                 User user = dBOperator.QueryUserInfo(friend.ID);
                 friend.Status = user.Status;
@@ -114,13 +119,13 @@ namespace MyQQApp
                 friend.UdpPort = user.UdpPort;
                 friend.TcpPort = user.TcpPort;
 
-                dictionary[tab.GroupName].Add(friend);
+                dictionary[tab.GroupID].Add(friend);
             }
 
-            foreach (string group in dictionary.Keys)
+            foreach (string groupid in dictionary.Keys)
             {
-                ChatListItem item = new ChatListItem(group);
-                foreach (Friend friend in dictionary[group])
+                ChatListItem item = new ChatListItem(groupid, GroupPair[groupid]);
+                foreach (Friend friend in dictionary[groupid])
                 {
                     ChatListSubItem subItem = new ChatListSubItem(friend.Nickname, friend.Remark, friend.Signature);
                     subItem.ID = friend.ID;
@@ -129,7 +134,7 @@ namespace MyQQApp
                     subItem.IpAddress = friend.IP;
                     subItem.UpdPort = friend.UdpPort;
                     subItem.TcpPort = friend.TcpPort;
-                    subItem.GroupName = group;
+                    subItem.GroupName = GroupPair[groupid];
                     item.SubItems.AddAccordingToStatus(subItem);
                 }
                 item.SubItems.Sort();
@@ -185,16 +190,16 @@ namespace MyQQApp
             DBOperator dBOperator = new DBOperator();
             //List<string> grouplist = dBOperator.GetAllGroupNameByAccount(GlobalValue.myself.ID);
 
-            string oldGroup = GetFriendGroupName(e.MouseOnSubItem.ID);
+            string oldGroupId = GetFriendGroupId(e.MouseOnSubItem.ID);
 
             for (int i = 0;i < chatListBox.Items.Count;i++)
             {
-                MoveFriendGroup para = new MoveFriendGroup(e.MouseOnSubItem.ID, chatListBox.Items[i].Text);
+                MoveFriendGroup para = new MoveFriendGroup(e.MouseOnSubItem.ID, chatListBox.Items[i].ID, chatListBox.Items[i].Text);
                 ((RightMenuItem)menu.MenuItems[4]).AddMenuItem(chatListBox.Items[i].Text, para);
 
                 ((RightMenuItem)menu.MenuItems[4].MenuItems[i]).OnMenuItenClickCallback += MenuItemForChangeGroup;
 
-                if (chatListBox.Items[i].Text.CompareTo(oldGroup) == 0)
+                if (chatListBox.Items[i].ID.CompareTo(oldGroupId) == 0)
                 {
                     menu.MenuItems[4].MenuItems[i].Enabled = false;
                 }
@@ -205,7 +210,7 @@ namespace MyQQApp
 
         private void chatListBox_RightClickItem(object sender, ChatGroupEventArgs e)
         {
-            UpdateNameFrm updateGroupFrm = new UpdateNameFrm(e.SelectItem.Text);
+            UpdateNameFrm updateGroupFrm = new UpdateNameFrm(e.SelectItem.Text, e.SelectItem.ID);
             updateGroupFrm.StartPosition = FormStartPosition.Manual;
             updateGroupFrm.Location = Control.MousePosition;
             updateGroupFrm.UpdateName += OnUpdateGroupName;

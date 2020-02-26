@@ -65,9 +65,11 @@ namespace MyQQApp.common
     public class Friend : User
     {
         private String remark;
+        private string groupid;
         private string groupname;
 
         public string Remark { get => remark; set => remark = value; }
-        public string Groupname { get => groupname; set => groupname = value; }
+        public string GroupName { get => groupname; set => groupname = value; }
+        public string GroupID { get => groupid; set => groupid = value; }
     }
 }

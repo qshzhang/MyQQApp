@@ -72,6 +72,8 @@ namespace MyQQApp.Forms
             DBOperator dBOperator = new DBOperator();
             dBOperator.InsertLoginTab(myself.ID, ((Myself)myself).Password);
             dBOperator.InsertUserInfoTab(myself.ID, myself.Nickname, myself.Signature, myself.HeadImage, myself.Sex, myself.Age, myself.Degree);
+            Boolean flag = dBOperator.InsertGroupInfo(myself.ID, myself.ID + "_000", "friends");
+            flag = true;
         }
 
         private void txtUserId_TextChanged(object sender, EventArgs e)

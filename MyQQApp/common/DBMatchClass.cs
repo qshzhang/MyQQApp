@@ -14,12 +14,14 @@ namespace MyQQApp.common
     {
         private string myaccount;
         private string friendaccount;
+        private string groupid;
         private string groupname;
         private string remark;
 
         public string MyAccount { get => myaccount; set => myaccount = value; }
         public string FriendAccount { get => friendaccount; set => friendaccount = value; }
         public string GroupName { get => groupname; set => groupname = value; }
+        public string GroupID { get => groupid; set => groupid = value; }
         public string Remark { get => remark; set => remark = value; }
     }
 

@@ -13,6 +13,21 @@ namespace MyQQApp.ChatListControl
     //[DefaultProperty("Text"),TypeConverter(typeof(ChatListItemConverter))]
     public class ChatListItem
     {
+        private string id;
+        /// <summary>
+        /// 获取或者设置列表项的id
+        /// </summary>
+        public string ID
+        {
+            get { return id; }
+            set
+            {
+                id = value;
+                if (this.ownerChatListBox != null)
+                    this.ownerChatListBox.Invalidate(this.bounds);
+            }
+        }
+
         private string text = "Item";
         /// <summary>
         /// 获取或者设置列表项的显示文本
@@ -98,6 +113,7 @@ namespace MyQQApp.ChatListControl
 
         public ChatListItem() { if (this.text == null) this.text = string.Empty; }
         public ChatListItem(string text) { this.text = text; }
+        public ChatListItem(string id, string text) { this.id = id; this.text = text; }
         public ChatListItem(string text, bool bOpen) {
             this.text = text;
             this.isOpen = bOpen;

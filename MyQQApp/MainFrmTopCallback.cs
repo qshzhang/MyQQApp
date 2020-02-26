@@ -83,7 +83,7 @@ namespace MyQQApp
 
             for (int i = 0; i < chatListBox.Items.Count; i++)
             {
-                if(chatListBox.Items[i].Text == friend.Groupname)
+                if(chatListBox.Items[i].ID == friend.GroupID)
                 {
                     chatListBox.Items[i].SubItems.AddAccordingToStatus(subItem);
                     break;
@@ -121,7 +121,7 @@ namespace MyQQApp
         {
             MoveFriendGroup moveFriendGroup = (MoveFriendGroup)internalPara;
             DBOperator dBOperator = new DBOperator();
-            dBOperator.UpdateFriendGroup(GlobalValue.myself.ID, moveFriendGroup.friendAccount, moveFriendGroup.newGroupName);
+            dBOperator.UpdateFriendGroup(GlobalValue.myself.ID, moveFriendGroup.friendAccount, moveFriendGroup.newGroupId);
 
             ChatListSubItem chatListSubItem = null;
             int newGroupIndex = 0;
@@ -169,17 +169,32 @@ namespace MyQQApp
         private void OnGenGroupCallback(string id, string oldName, string newName)
         {
             DBOperator dBOperator = new DBOperator();
-            dBOperator.GenerateNewGroup(GlobalValue.myself.ID, newName);
 
-            ChatListItem item = new ChatListItem(newName);
+            List<string> groupids = dBOperator.GetGroupIdByAccount(GlobalValue.myself.ID);
+            int max = 0;
+            int tmp;
+
+            foreach(string gid in groupids)
+            {
+                tmp = Convert.ToInt32(gid.Substring(7, 3));
+                if(tmp > max)
+                {
+                    max = tmp;
+                }
+            }
+            max++;
+            dBOperator.GenerateNewGroup(GlobalValue.myself.ID, 
+                GlobalValue.myself.ID + "_" + max.ToString().PadLeft(3, '0'), newName);
+
+            ChatListItem item = new ChatListItem(GlobalValue.myself.ID + "_" + max.ToString().PadLeft(3, '0'), newName);
             chatListBox.Items.Add(item);
         }
 
-        private void OnUpdateGroupName(string id, string oldName, string newName)
+        private void OnUpdateGroupName(string groupid, string oldName, string newName)
         {
             chatListBox.SelectGroup.Text = newName;
             DBOperator dBOperator = new DBOperator();
-            dBOperator.UpdateGroupName(GlobalValue.myself.ID, oldName, newName);
+            dBOperator.UpdateGroupName(GlobalValue.myself.ID, groupid, newName);
             GlobalValue.QQLog.LogWrite(GlobalValue.LOGLEVEL.LOG_LEVEL_INFO, string.Format("groupname changed:{0} -> {1}", oldName, newName));
         }
 
@@ -245,7 +260,7 @@ namespace MyQQApp
         }
 
 
-        private string GetFriendGroupName(string account)
+        private string GetFriendGroupId(string account)
         {
             int index = -1;
             for (int i = 0; i < chatListBox.Items.Count; i++)
@@ -253,7 +268,7 @@ namespace MyQQApp
                 index = chatListBox.Items[i].GroupContainAccount(account);
                 if (index != -1)
                 {
-                    return chatListBox.Items[i].Text;
+                    return chatListBox.Items[i].ID;
                 }
             }
 

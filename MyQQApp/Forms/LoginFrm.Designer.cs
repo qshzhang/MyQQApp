@@ -30,12 +30,12 @@
         {
             this.txtPwd = new System.Windows.Forms.TextBox();
             this.btnLogin = new System.Windows.Forms.Button();
-            this.ucBackPanel = new MyQQApp.FormControl.ucBackPanel();
             this.lbRegister = new System.Windows.Forms.Label();
-            this.ucSelfHead = new MyQQApp.FormControl.ucSelfHead();
             this.checkBoxRememberPwd = new System.Windows.Forms.CheckBox();
             this.linkLabelForgetPwd = new System.Windows.Forms.LinkLabel();
             this.txtUserId = new System.Windows.Forms.ComboBox();
+            this.ucSelfHead = new MyQQApp.FormControl.ucSelfHead();
+            this.ucBackPanel = new MyQQApp.FormControl.ucBackPanel();
             this.SuspendLayout();
             // 
             // txtPwd
@@ -59,16 +59,6 @@
             this.btnLogin.UseVisualStyleBackColor = true;
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
-            // ucBackPanel
-            // 
-            this.ucBackPanel.BackColor = System.Drawing.SystemColors.Control;
-            this.ucBackPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ucBackPanel.IsShowMinBtn = true;
-            this.ucBackPanel.Location = new System.Drawing.Point(0, 0);
-            this.ucBackPanel.Name = "ucBackPanel";
-            this.ucBackPanel.Size = new System.Drawing.Size(571, 336);
-            this.ucBackPanel.TabIndex = 0;
-            // 
             // lbRegister
             // 
             this.lbRegister.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
@@ -79,16 +69,6 @@
             this.lbRegister.Text = "注册";
             this.lbRegister.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lbRegister.Click += new System.EventHandler(this.lbRegister_Click);
-            // 
-            // ucSelfHead
-            // 
-            this.ucSelfHead.BackColor = System.Drawing.Color.Transparent;
-            this.ucSelfHead.Location = new System.Drawing.Point(74, 131);
-            this.ucSelfHead.Name = "ucSelfHead";
-            this.ucSelfHead.SelfHeadImage = null;
-            this.ucSelfHead.SelfStatusImage = global::MyQQApp.Properties.Resources.OnLine;
-            this.ucSelfHead.Size = new System.Drawing.Size(150, 150);
-            this.ucSelfHead.TabIndex = 6;
             // 
             // checkBoxRememberPwd
             // 
@@ -106,7 +86,7 @@
             // 
             this.linkLabelForgetPwd.AutoSize = true;
             this.linkLabelForgetPwd.Font = new System.Drawing.Font("微软雅黑", 7.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.linkLabelForgetPwd.Location = new System.Drawing.Point(389, 216);
+            this.linkLabelForgetPwd.Location = new System.Drawing.Point(433, 215);
             this.linkLabelForgetPwd.Name = "linkLabelForgetPwd";
             this.linkLabelForgetPwd.Size = new System.Drawing.Size(69, 20);
             this.linkLabelForgetPwd.TabIndex = 8;
@@ -123,6 +103,27 @@
             this.txtUserId.TabIndex = 9;
             this.txtUserId.Text = "admin";
             this.txtUserId.TextChanged += new System.EventHandler(this.txtUserId_TextChanged);
+            // 
+            // ucSelfHead
+            // 
+            this.ucSelfHead.BackColor = System.Drawing.Color.Transparent;
+            this.ucSelfHead.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ucSelfHead.Location = new System.Drawing.Point(74, 131);
+            this.ucSelfHead.Name = "ucSelfHead";
+            this.ucSelfHead.SelfHeadImage = null;
+            this.ucSelfHead.SelfStatusImage = global::MyQQApp.Properties.Resources.OnLine;
+            this.ucSelfHead.Size = new System.Drawing.Size(150, 150);
+            this.ucSelfHead.TabIndex = 6;
+            // 
+            // ucBackPanel
+            // 
+            this.ucBackPanel.BackColor = System.Drawing.SystemColors.Control;
+            this.ucBackPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ucBackPanel.IsShowMinBtn = true;
+            this.ucBackPanel.Location = new System.Drawing.Point(0, 0);
+            this.ucBackPanel.Name = "ucBackPanel";
+            this.ucBackPanel.Size = new System.Drawing.Size(571, 336);
+            this.ucBackPanel.TabIndex = 0;
             // 
             // LoginFrm
             // 

@@ -161,7 +161,8 @@ namespace MyQQApp.Forms
                     Friend friend = new Friend();
                     friend.ID = ucDEId.ContentStr;
                     friend.Remark = ucDEMix1.ContentStr;
-                    friend.Groupname = "friends";
+                    friend.GroupName = "friends";
+                    friend.GroupID = GlobalValue.myself.ID + "_000";
 
                     updateSelfInfo(friend);
                     return;

@@ -105,6 +105,7 @@
             // ucSelfHead
             // 
             this.ucSelfHead.BackColor = System.Drawing.Color.Transparent;
+            this.ucSelfHead.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ucSelfHead.Location = new System.Drawing.Point(28, 12);
             this.ucSelfHead.Name = "ucSelfHead";
             this.ucSelfHead.SelfHeadImage = null;

@@ -82,17 +82,43 @@ namespace MyQQApp.common
             return _InsertOrUpdateData(sql);
         }
 
-        public Boolean InsertRelationTab(string myaccount, string friend, string groupname, string remark)
+        public Boolean InsertRelationTab(string myaccount, string friend, string groupid, string remark)
         {
-            string sql = "insert into relation(myaccount, friendaccount, groupname, remark) values(N'" +
-                myaccount + "',N'" + friend + "',N'" + groupname + "', N'" + remark + "')";
+            string sql = "insert into relation(myaccount, friendaccount, groupid, remark) values(N'" +
+                myaccount + "',N'" + friend + "',N'" + groupid + "', N'" + remark + "')";
 
             return _InsertOrUpdateData(sql);
         }
 
-        public Boolean GenerateNewGroup(string myaccount, string groupname)
+        public Boolean GenerateNewGroup(string myaccount, string groupid, string groupname)
         {
-            return InsertRelationTab(myaccount, "_0000_", groupname, "_0000_");
+            //return InsertRelationTab(myaccount, "_0000_", groupid, "_0000_");
+
+            return InsertGroupInfo(myaccount, groupid, groupname);
+        }
+
+        public List<string> GetGroupIdByAccount(string account)
+        {
+            List<string> groupids = new List<string>();
+            string sql = "select groupid from groupinfo where account=N'" + account + "'";
+            DataSet dataSet = _QueryData(sql);
+
+            if (dataSet == null || dataSet.Tables == null || dataSet.Tables.Count == 0 || dataSet.Tables[0] == null || dataSet.Tables[0].Rows.Count == 0) return groupids;
+
+            foreach (DataRow row in dataSet.Tables[0].Rows)
+            {
+                groupids.Add(row["groupid"].ToString());
+            }
+
+            return groupids;
+        }
+
+        public Boolean InsertGroupInfo(string account, string groupid, string groupname)
+        {
+            string sql = "insert into groupinfo(account, groupid, groupname, " +
+                "createtime) values(N'" + account + "', N'" + groupid + "',N'" + groupname +
+                "', N'" + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss") + "')";
+            return _InsertOrUpdateData(sql);
         }
 
         public Boolean InsertUserInfoTab(string account, string nickname, string signature, string headimage, short sex, short age, short degree)
@@ -181,7 +207,10 @@ namespace MyQQApp.common
 
         public List<RelationTab> QueryRelationTabByMyAccount(string account)
         {
-            string sql = "select * from relation where myaccount=N'" + account + "'";
+            string sql = "select a.friendaccount as friendaccount, " +
+                " b.groupid as groupid, a.remark as remark, b.groupname as groupname " +
+                "from relation a right join groupinfo b on a.myaccount=N'" + account + "'" + 
+                " and a.groupid = b.groupid";
             DataSet dataSet = _QueryData(sql);
 
             List<RelationTab> list = new List<RelationTab>();
@@ -194,6 +223,7 @@ namespace MyQQApp.common
                 relationTab.MyAccount = account;
                 relationTab.FriendAccount = row["friendaccount"].ToString();
                 relationTab.GroupName = row["groupname"].ToString();
+                relationTab.GroupID = row["groupid"].ToString();
                 relationTab.Remark = row["remark"].ToString();
                 list.Add(relationTab);
             }
@@ -218,18 +248,18 @@ namespace MyQQApp.common
             return _InsertOrUpdateData(sql);
         }
 
-        public Boolean UpdateGroupName(string myAccount, string oldGroupName, string newGroupName)
+        public Boolean UpdateGroupName(string myAccount, string groupid, string newGroupName)
         {
-            string sql = "update relation set groupname = N'" + newGroupName +
-                "' where myaccount = N'" + myAccount + "' and groupname = N'" +
-                oldGroupName + "'";
+            string sql = "update groupinfo set groupname = N'" + newGroupName +
+                "' where account = N'" + myAccount + "' and groupid = N'" +
+                groupid + "'";
 
             return _InsertOrUpdateData(sql);
         }
 
-        public Boolean UpdateFriendGroup(string myAccount, string friendaccount, string newGroupName)
+        public Boolean UpdateFriendGroup(string myAccount, string friendaccount, string newGroupId)
         {
-            string sql = "update relation set groupname = N'" + newGroupName +
+            string sql = "update relation set groupid = N'" + newGroupId +
                 "' where myaccount = N'" + myAccount + "' and friendaccount = N'" +
                 friendaccount + "'";
 
@@ -305,7 +335,7 @@ namespace MyQQApp.common
 
         public List<string> GetAllGroupNameByAccount(string account)
         {
-            string sql = "select distinct groupname from relation where myaccount=N'" + account + "'";
+            string sql = "select distinct groupid from relation where myaccount=N'" + account + "'";
 
             DataSet dataSet = _QueryData(sql);
 
@@ -315,7 +345,7 @@ namespace MyQQApp.common
 
             foreach (DataRow row in dataSet.Tables[0].Rows)
             {
-                list.Add(row["groupname"].ToString());
+                list.Add(row["groupid"].ToString());
             }
             return list;
         }

@@ -40,3 +40,4 @@ D:\Code\github\MyQQApp\MyQQApp\obj\Debug\MyQQApp.Properties.Resources.resources
 D:\Code\github\MyQQApp\MyQQApp\obj\Debug\MyQQApp.csproj.GenerateResource.cache
 D:\Code\github\MyQQApp\MyQQApp\obj\Debug\MyQQApp.exe
 D:\Code\github\MyQQApp\MyQQApp\obj\Debug\MyQQApp.pdb
+D:\Code\github\MyQQApp\MyQQApp\obj\Debug\MyQQApp.csprojAssemblyReference.cache

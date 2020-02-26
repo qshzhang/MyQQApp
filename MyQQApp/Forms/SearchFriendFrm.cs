@@ -73,7 +73,7 @@ namespace MyQQApp.Forms
         private void OnAddFriend(User user)
         {
             DBOperator dBOperator = new DBOperator();
-            Boolean isNeedInsert = dBOperator.InsertRelationTab(GlobalValue.myself.ID, user.ID, ((Friend)user).Groupname, ((Friend)user).Remark);
+            Boolean isNeedInsert = dBOperator.InsertRelationTab(GlobalValue.myself.ID, user.ID, ((Friend)user).GroupID, ((Friend)user).Remark);
 
             if(null != mainFrmAddFriendCallback)
             {
