@@ -1,0 +1,9 @@
+D:\Code\C#\MyQQAppServer\bin\Debug\MyQQAppServer.exe.config
+D:\Code\C#\MyQQAppServer\bin\Debug\MyQQAppServer.exe
+D:\Code\C#\MyQQAppServer\bin\Debug\MyQQAppServer.pdb
+D:\Code\C#\MyQQAppServer\obj\Debug\MyQQAppServer.csprojAssemblyReference.cache
+D:\Code\C#\MyQQAppServer\obj\Debug\MyQQAppServer.MainFrm.resources
+D:\Code\C#\MyQQAppServer\obj\Debug\MyQQAppServer.Properties.Resources.resources
+D:\Code\C#\MyQQAppServer\obj\Debug\MyQQAppServer.csproj.GenerateResource.cache
+D:\Code\C#\MyQQAppServer\obj\Debug\MyQQAppServer.exe
+D:\Code\C#\MyQQAppServer\obj\Debug\MyQQAppServer.pdb

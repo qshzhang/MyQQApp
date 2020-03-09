@@ -1,0 +1,649 @@
+[LOG_LEVEL_INFO][2020-01-17 23:10:35]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-01-17 23:10:35]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-01-17 23:10:35]MainFrm.cs 131: load friends list success
+[LOG_LEVEL_INFO][2020-01-17 23:22:56]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-01-17 23:22:56]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-01-17 23:22:56]MainFrm.cs 131: load friends list success
+[LOG_LEVEL_INFO][2020-01-17 23:22:58]MainFrm.cs 227: self head click
+[LOG_LEVEL_INFO][2020-01-17 23:37:42]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-01-17 23:37:42]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-01-17 23:37:42]MainFrm.cs 131: load friends list success
+[LOG_LEVEL_INFO][2020-01-17 23:37:44]MainFrm.cs 227: self head click
+[LOG_LEVEL_INFO][2020-01-17 23:38:04]UserInfoFrm.cs 140: self head changed
+[LOG_LEVEL_INFO][2020-01-17 23:38:06]MainFrmTopCallback.cs 188: nickname changed. old:99999, new:subtask
+[LOG_LEVEL_INFO][2020-01-17 23:38:27]MainFrmTopCallback.cs 176: group:friends -> mates
+[LOG_LEVEL_INFO][2020-01-17 23:42:03]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-01-17 23:42:03]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-01-17 23:42:03]MainFrm.cs 131: load friends list success
+[LOG_LEVEL_INFO][2020-01-17 23:42:05]MainFrm.cs 227: self head click
+[LOG_LEVEL_INFO][2020-01-17 23:42:20]MainFrmTopCallback.cs 188: nickname changed:process -> presuccess
+[LOG_LEVEL_INFO][2020-01-17 23:42:33]MainFrmTopCallback.cs 176: groupname changed:friends -> gogogo
+[LOG_LEVEL_INFO][2020-01-17 23:54:37]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-01-17 23:54:37]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-01-17 23:54:37]MainFrm.cs 131: load friends list success
+[LOG_LEVEL_INFO][2020-01-17 23:54:47]MainFrmTopCallback.cs 155: signature changed:slow walker -> slower...
+[LOG_LEVEL_INFO][2020-01-17 23:54:55]MainFrmTopCallback.cs 155: signature changed:slower... -> slower walker
+[LOG_LEVEL_INFO][2020-01-17 23:54:58]MainFrmTopCallback.cs 155: signature changed:slower walker -> slower walkers
+[LOG_LEVEL_INFO][2020-01-18 00:02:16]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-01-18 00:02:16]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-01-18 00:02:16]MainFrm.cs 131: load friends list success
+[LOG_LEVEL_INFO][2020-01-18 00:02:19]MainFrmTopCallback.cs 226: status changed:OffLine -> Online
+[LOG_LEVEL_INFO][2020-01-18 00:02:21]MainFrmTopCallback.cs 226: status changed:Online -> Away
+[LOG_LEVEL_INFO][2020-01-18 00:02:22]MainFrmTopCallback.cs 226: status changed:Away -> OffLine
+[LOG_LEVEL_INFO][2020-01-18 00:02:24]MainFrmTopCallback.cs 226: status changed:OffLine -> DontDisturb
+[LOG_LEVEL_INFO][2020-01-18 00:02:25]MainFrmTopCallback.cs 226: status changed:DontDisturb -> Busy
+[LOG_LEVEL_INFO][2020-01-18 00:02:27]MainFrmTopCallback.cs 226: status changed:Busy -> Away
+[LOG_LEVEL_INFO][2020-01-18 11:31:57]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-01-18 11:31:57]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-01-18 11:31:57]MainFrm.cs 131: load friends list success
+[LOG_LEVEL_INFO][2020-01-18 11:32:00]MainFrm.cs 227: self head click
+[LOG_LEVEL_INFO][2020-01-18 11:32:06]MainFrmTopCallback.cs 190: nickname changed:subtask -> ttt
+[LOG_LEVEL_INFO][2020-01-18 11:32:22]MainFrmTopCallback.cs 226: status changed:OffLine -> Busy
+[LOG_LEVEL_INFO][2020-01-18 12:15:09]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-01-18 12:15:09]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-01-18 12:15:09]MainFrm.cs 131: load friends list success
+[LOG_LEVEL_INFO][2020-01-18 12:18:58]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-01-18 12:18:58]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-01-18 12:18:58]MainFrm.cs 135: load friends list success
+[LOG_LEVEL_INFO][2020-01-18 12:19:02]MainFrmTopCallback.cs 226: status changed:OffLine -> QMe
+[LOG_LEVEL_INFO][2020-01-18 12:19:04]MainFrmTopCallback.cs 226: status changed:QMe -> Away
+[LOG_LEVEL_INFO][2020-01-18 12:19:05]MainFrm.cs 231: self head click
+[LOG_LEVEL_INFO][2020-01-18 12:19:12]MainFrmTopCallback.cs 226: status changed:Away -> DontDisturb
+[LOG_LEVEL_INFO][2020-01-18 12:19:13]MainFrmTopCallback.cs 226: status changed:DontDisturb -> OffLine
+[LOG_LEVEL_INFO][2020-01-18 12:22:58]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-01-18 12:22:58]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-01-18 12:22:58]MainFrm.cs 138: load friends list success
+[LOG_LEVEL_INFO][2020-01-18 12:25:41]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-01-18 12:25:41]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-01-18 12:25:41]MainFrm.cs 138: load friends list success
+[LOG_LEVEL_INFO][2020-01-18 12:25:46]MainFrmTopCallback.cs 226: status changed:Online -> Away
+[LOG_LEVEL_INFO][2020-01-18 12:26:01]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-01-18 12:26:01]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-01-18 12:26:01]MainFrm.cs 138: load friends list success
+[LOG_LEVEL_INFO][2020-01-18 12:29:50]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-01-18 12:29:50]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-01-18 12:29:50]MainFrm.cs 138: load friends list success
+[LOG_LEVEL_INFO][2020-01-18 12:29:55]MainFrmTopCallback.cs 226: status changed:DontDisturb -> Busy
+[LOG_LEVEL_INFO][2020-01-18 12:29:57]MainFrmTopCallback.cs 226: status changed:Busy -> OffLine
+[LOG_LEVEL_INFO][2020-01-18 12:29:59]MainFrmTopCallback.cs 226: status changed:OffLine -> DontDisturb
+[LOG_LEVEL_INFO][2020-01-18 12:30:02]MainFrmTopCallback.cs 226: status changed:DontDisturb -> Away
+[LOG_LEVEL_INFO][2020-01-18 12:30:18]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-01-18 12:30:18]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-01-18 12:30:18]MainFrm.cs 138: load friends list success
+[LOG_LEVEL_INFO][2020-01-18 12:30:22]MainFrmTopCallback.cs 226: status changed:Away -> QMe
+[LOG_LEVEL_INFO][2020-01-18 12:30:35]MainFrm.cs 234: self head click
+[LOG_LEVEL_INFO][2020-01-18 12:52:11]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-01-18 12:52:11]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-01-18 12:52:11]MainFrm.cs 138: load friends list success
+[LOG_LEVEL_INFO][2020-01-18 12:52:25]MainFrmTopCallback.cs 226: status changed:Online -> Away
+[LOG_LEVEL_INFO][2020-01-18 12:52:26]MainFrmTopCallback.cs 226: status changed:Away -> DontDisturb
+[LOG_LEVEL_INFO][2020-01-18 12:52:29]MainFrmTopCallback.cs 226: status changed:DontDisturb -> OffLine
+[LOG_LEVEL_INFO][2020-01-18 12:52:40]MainFrmTopCallback.cs 226: status changed:OffLine -> Away
+[LOG_LEVEL_INFO][2020-01-18 12:52:42]MainFrmTopCallback.cs 226: status changed:Away -> Away
+[LOG_LEVEL_INFO][2020-01-18 12:52:44]MainFrmTopCallback.cs 226: status changed:Away -> Busy
+[LOG_LEVEL_INFO][2020-01-18 12:52:51]MainFrm.cs 234: self head click
+[LOG_LEVEL_INFO][2020-01-18 12:53:18]UserInfoFrm.cs 140: self head changed
+[LOG_LEVEL_INFO][2020-01-18 12:53:43]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-01-18 12:53:43]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-01-18 12:53:43]MainFrm.cs 138: load friends list success
+[LOG_LEVEL_INFO][2020-01-18 12:53:46]MainFrmTopCallback.cs 226: status changed:Online -> Busy
+[LOG_LEVEL_INFO][2020-01-18 12:53:48]MainFrmTopCallback.cs 226: status changed:Busy -> DontDisturb
+[LOG_LEVEL_INFO][2020-01-18 12:53:50]MainFrm.cs 234: self head click
+[LOG_LEVEL_INFO][2020-01-18 12:53:54]UserInfoFrm.cs 140: self head changed
+[LOG_LEVEL_INFO][2020-01-18 12:54:29]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-01-18 12:54:29]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-01-18 12:54:29]MainFrm.cs 138: load friends list success
+[LOG_LEVEL_INFO][2020-01-18 12:54:55]MainFrm.cs 234: self head click
+[LOG_LEVEL_ERROR][2020-02-15 21:03:10]LoginFrm.cs 47: LogFrm: username or passowrd are incorrect
+[LOG_LEVEL_INFO][2020-02-15 21:03:16]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-02-15 21:03:16]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-02-15 21:03:16]MainFrm.cs 138: load friends list success
+[LOG_LEVEL_INFO][2020-02-15 21:03:28]MainFrm.cs 234: self head click
+[LOG_LEVEL_INFO][2020-02-15 21:04:00]MainFrmTopCallback.cs 155: signature changed:slower walkers -> slower walkers
+[LOG_LEVEL_INFO][2020-02-15 21:04:01]MainFrmTopCallback.cs 155: signature changed:slower walkers -> slower walkers
+[LOG_LEVEL_INFO][2020-02-15 21:04:02]MainFrmTopCallback.cs 155: signature changed:slower walkers -> slower walkers
+[LOG_LEVEL_INFO][2020-02-15 21:04:31]MainFrm.cs 234: self head click
+[LOG_LEVEL_INFO][2020-02-15 21:04:34]MainFrmTopCallback.cs 226: status changed:DontDisturb -> Busy
+[LOG_LEVEL_INFO][2020-02-15 21:04:36]MainFrmTopCallback.cs 226: status changed:Busy -> OffLine
+[LOG_LEVEL_INFO][2020-02-15 21:04:38]MainFrmTopCallback.cs 226: status changed:OffLine -> DontDisturb
+[LOG_LEVEL_INFO][2020-02-15 21:04:39]MainFrm.cs 234: self head click
+[LOG_LEVEL_INFO][2020-02-15 21:05:19]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-02-15 21:05:19]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-02-15 21:05:19]MainFrm.cs 138: load friends list success
+[LOG_LEVEL_ERROR][2020-02-15 21:12:53]LoginFrm.cs 47: LogFrm: username or passowrd are incorrect
+[LOG_LEVEL_INFO][2020-02-15 21:13:01]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-02-15 21:13:01]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-02-15 21:13:01]MainFrm.cs 138: load friends list success
+[LOG_LEVEL_INFO][2020-02-15 21:52:29]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-02-15 21:52:29]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-02-15 21:52:29]MainFrm.cs 138: load friends list success
+[LOG_LEVEL_INFO][2020-02-16 13:18:48]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-02-16 13:18:48]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-02-16 13:18:48]MainFrm.cs 138: load friends list success
+[LOG_LEVEL_INFO][2020-02-16 13:19:42]MainFrmTopCallback.cs 226: status changed:Away -> DontDisturb
+[LOG_LEVEL_INFO][2020-02-16 13:19:58]MainFrmTopCallback.cs 226: status changed:DontDisturb -> Busy
+[LOG_LEVEL_INFO][2020-02-20 21:50:21]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-02-20 21:50:21]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-02-20 21:50:21]MainFrm.cs 138: load friends list success
+[LOG_LEVEL_INFO][2020-02-21 10:22:24]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-02-21 10:22:24]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-02-21 10:22:24]MainFrm.cs 138: load friends list success
+[LOG_LEVEL_INFO][2020-02-21 10:22:26]MainFrm.cs 234: self head click
+[LOG_LEVEL_INFO][2020-02-21 11:48:01]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-02-21 11:48:01]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-02-21 11:48:01]MainFrm.cs 138: load friends list success
+[LOG_LEVEL_INFO][2020-02-21 12:05:15]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-02-21 12:05:15]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-02-21 12:05:15]MainFrm.cs 138: load friends list success
+[LOG_LEVEL_INFO][2020-02-21 12:12:15]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-02-21 12:12:15]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-02-21 12:12:15]MainFrm.cs 138: load friends list success
+[LOG_LEVEL_INFO][2020-02-21 12:13:36]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-02-21 12:13:36]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-02-21 12:13:36]MainFrm.cs 138: load friends list success
+[LOG_LEVEL_INFO][2020-02-21 12:20:08]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-02-21 12:20:08]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-02-21 12:20:08]MainFrm.cs 138: load friends list success
+[LOG_LEVEL_INFO][2020-02-21 21:59:28]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-02-21 21:59:28]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-02-21 21:59:28]MainFrm.cs 138: load friends list success
+[LOG_LEVEL_INFO][2020-02-21 22:02:36]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-02-21 22:02:36]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-02-21 22:02:36]MainFrm.cs 138: load friends list success
+[LOG_LEVEL_INFO][2020-02-21 22:02:55]MainFrm.cs 234: self head click
+[LOG_LEVEL_INFO][2020-02-21 22:03:17]MainFrm.cs 234: self head click
+[LOG_LEVEL_INFO][2020-02-21 22:04:56]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-02-21 22:04:56]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-02-21 22:04:56]MainFrm.cs 138: load friends list success
+[LOG_LEVEL_INFO][2020-02-21 22:05:19]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-02-21 22:05:19]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-02-21 22:05:19]MainFrm.cs 138: load friends list success
+[LOG_LEVEL_INFO][2020-02-21 22:10:19]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-02-21 22:10:19]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-02-21 22:10:19]MainFrm.cs 86: query no friends
+[LOG_LEVEL_INFO][2020-02-21 22:10:55]MainFrm.cs 234: self head click
+[LOG_LEVEL_INFO][2020-02-22 09:59:42]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-02-22 09:59:42]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-02-22 09:59:43]MainFrm.cs 138: load friends list success
+[LOG_LEVEL_INFO][2020-02-22 10:01:46]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-02-22 10:01:46]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-02-22 10:01:46]MainFrm.cs 138: load friends list success
+[LOG_LEVEL_INFO][2020-02-22 10:02:15]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-02-22 10:02:15]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-02-22 10:02:15]MainFrm.cs 138: load friends list success
+[LOG_LEVEL_INFO][2020-02-22 10:02:47]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-02-22 10:02:47]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-02-22 10:02:47]MainFrm.cs 138: load friends list success
+[LOG_LEVEL_INFO][2020-02-22 10:20:12]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-02-22 10:20:12]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-02-22 10:20:12]MainFrm.cs 138: load friends list success
+[LOG_LEVEL_INFO][2020-02-22 10:31:20]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-02-22 10:31:20]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-02-22 10:31:20]MainFrm.cs 138: load friends list success
+[LOG_LEVEL_INFO][2020-02-22 10:52:24]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-02-22 10:52:24]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-02-22 10:52:24]MainFrm.cs 138: load friends list success
+[LOG_LEVEL_INFO][2020-02-22 10:52:50]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-02-22 10:52:50]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-02-22 10:52:50]MainFrm.cs 138: load friends list success
+[LOG_LEVEL_INFO][2020-02-23 17:55:41]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-02-23 17:55:41]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-02-23 17:55:42]MainFrm.cs 138: load friends list success
+[LOG_LEVEL_INFO][2020-02-23 17:59:14]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-02-23 17:59:14]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-02-23 17:59:14]MainFrm.cs 138: load friends list success
+[LOG_LEVEL_INFO][2020-02-23 17:59:20]MainFrm.cs 234: self head click
+[LOG_LEVEL_INFO][2020-02-23 17:59:42]MainFrmTopCallback.cs 160: signature changed:hahaha -> hahaha
+[LOG_LEVEL_INFO][2020-02-23 17:59:43]MainFrmTopCallback.cs 160: signature changed:hahaha -> hahaha
+[LOG_LEVEL_INFO][2020-02-23 18:04:54]UserInfoFrm.cs 140: self head changed
+[LOG_LEVEL_INFO][2020-02-23 18:05:14]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-02-23 18:05:14]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-02-23 18:05:14]MainFrm.cs 138: load friends list success
+[LOG_LEVEL_INFO][2020-02-23 18:05:18]MainFrm.cs 234: self head click
+[LOG_LEVEL_INFO][2020-02-23 18:05:52]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-02-23 18:05:52]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-02-23 18:05:52]MainFrm.cs 138: load friends list success
+[LOG_LEVEL_INFO][2020-02-23 18:05:54]MainFrm.cs 234: self head click
+[LOG_LEVEL_INFO][2020-02-23 18:26:22]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-02-23 18:26:22]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-02-23 18:26:22]MainFrm.cs 138: load friends list success
+[LOG_LEVEL_INFO][2020-02-23 18:29:01]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-02-23 18:29:01]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-02-23 18:29:01]MainFrm.cs 138: load friends list success
+[LOG_LEVEL_INFO][2020-02-23 18:30:12]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-02-23 18:30:12]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-02-23 18:30:12]MainFrm.cs 138: load friends list success
+[LOG_LEVEL_INFO][2020-02-23 18:30:17]MainFrmTopCallback.cs 160: signature changed:slower walkers -> slower walkers
+[LOG_LEVEL_INFO][2020-02-23 18:30:58]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-02-23 18:30:58]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-02-23 18:30:58]MainFrm.cs 138: load friends list success
+[LOG_LEVEL_INFO][2020-02-23 19:22:34]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-02-23 19:22:34]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-02-23 19:22:34]MainFrm.cs 138: load friends list success
+[LOG_LEVEL_INFO][2020-02-23 19:22:39]MainFrm.cs 234: self head click
+[LOG_LEVEL_INFO][2020-02-26 23:11:16]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-02-26 23:11:16]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-02-26 23:11:16]MainFrm.cs 86: query no friends
+[LOG_LEVEL_INFO][2020-02-26 23:15:00]UserInfoFrm.cs 140: self head changed
+[LOG_LEVEL_INFO][2020-02-26 23:15:11]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-02-26 23:15:11]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-02-26 23:15:11]MainFrm.cs 86: query no friends
+[LOG_LEVEL_INFO][2020-02-26 23:17:21]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-02-26 23:17:21]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-02-26 23:18:23]MainFrm.cs 86: query no friends
+[LOG_LEVEL_INFO][2020-02-26 23:19:16]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-02-26 23:19:16]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-02-26 23:19:59]MainFrm.cs 86: query no friends
+[LOG_LEVEL_INFO][2020-02-26 23:35:14]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-02-26 23:35:14]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-02-26 23:35:14]MainFrm.cs 143: load friends list success
+[LOG_LEVEL_INFO][2020-02-26 23:35:32]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-02-26 23:35:32]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-02-26 23:35:32]MainFrm.cs 143: load friends list success
+[LOG_LEVEL_INFO][2020-02-26 23:36:12]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-02-26 23:36:12]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-02-26 23:36:12]MainFrm.cs 143: load friends list success
+[LOG_LEVEL_INFO][2020-02-26 23:39:54]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-02-26 23:39:54]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-02-26 23:40:05]MainFrm.cs 143: load friends list success
+[LOG_LEVEL_INFO][2020-02-26 23:44:04]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-02-26 23:44:04]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-02-26 23:44:13]MainFrm.cs 143: load friends list success
+[LOG_LEVEL_INFO][2020-02-26 23:44:38]MainFrmTopCallback.cs 198: groupname changed:123 -> haha
+[LOG_LEVEL_INFO][2020-02-26 23:44:56]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-02-26 23:44:56]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-02-26 23:44:56]MainFrm.cs 143: load friends list success
+[LOG_LEVEL_INFO][2020-02-26 23:45:37]MainFrmTopCallback.cs 198: groupname changed:friends -> qqqqq
+[LOG_LEVEL_INFO][2020-02-26 23:45:52]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-02-26 23:45:52]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-02-26 23:45:52]MainFrm.cs 143: load friends list success
+[LOG_LEVEL_INFO][2020-02-26 23:50:34]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-02-26 23:50:34]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-02-26 23:50:34]MainFrm.cs 143: load friends list success
+[LOG_LEVEL_INFO][2020-02-26 23:51:05]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-02-26 23:51:05]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-02-26 23:51:05]MainFrm.cs 143: load friends list success
+[LOG_LEVEL_INFO][2020-02-28 00:07:46]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-02-28 00:07:46]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-02-28 00:07:46]MainFrm.cs 143: load friends list success
+[LOG_LEVEL_INFO][2020-02-28 00:08:48]MainFrm.cs 239: self head click
+[LOG_LEVEL_INFO][2020-02-28 00:09:03]MainFrmTopCallback.cs 160: signature changed:wahaha -> wahahakkkk
+[LOG_LEVEL_INFO][2020-02-28 00:09:08]MainFrm.cs 239: self head click
+[LOG_LEVEL_INFO][2020-02-28 00:09:22]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-02-28 00:09:22]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-02-28 00:09:22]MainFrm.cs 143: load friends list success
+[LOG_LEVEL_INFO][2020-02-28 00:09:29]MainFrm.cs 239: self head click
+[LOG_LEVEL_INFO][2020-02-28 00:10:30]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-02-28 00:10:30]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-02-28 00:10:30]MainFrm.cs 143: load friends list success
+[LOG_LEVEL_INFO][2020-02-28 00:10:52]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-02-28 00:10:52]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-02-28 00:10:52]MainFrm.cs 143: load friends list success
+[LOG_LEVEL_INFO][2020-02-28 20:53:12]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-02-28 20:53:12]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-02-28 20:53:12]MainFrm.cs 143: load friends list success
+[LOG_LEVEL_INFO][2020-02-28 20:53:19]MainFrm.cs 239: self head click
+[LOG_LEVEL_INFO][2020-02-28 20:53:52]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-02-28 20:53:52]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-02-28 20:53:52]MainFrm.cs 143: load friends list success
+[LOG_LEVEL_INFO][2020-02-28 20:54:20]MainFrmTopCallback.cs 210: groupname changed:qqqqq -> mate
+[LOG_LEVEL_INFO][2020-02-28 20:54:35]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-02-28 20:54:35]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-02-28 20:54:35]MainFrm.cs 143: load friends list success
+[LOG_LEVEL_INFO][2020-02-28 23:54:52]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-02-28 23:54:52]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-02-28 23:54:52]MainFrm.cs 143: load friends list success
+[LOG_LEVEL_INFO][2020-02-28 23:57:26]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-02-28 23:57:26]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-02-28 23:57:26]MainFrm.cs 143: load friends list success
+[LOG_LEVEL_INFO][2020-02-29 00:03:36]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-02-29 00:03:36]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-02-29 00:03:36]MainFrm.cs 143: load friends list success
+[LOG_LEVEL_INFO][2020-02-29 00:06:14]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-02-29 00:06:14]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-02-29 00:06:14]MainFrm.cs 143: load friends list success
+[LOG_LEVEL_INFO][2020-02-29 20:39:36]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-02-29 20:39:36]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-02-29 20:39:37]MainFrm.cs 143: load friends list success
+[LOG_LEVEL_INFO][2020-02-29 20:52:45]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-02-29 20:52:45]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-02-29 20:52:45]MainFrm.cs 143: load friends list success
+[LOG_LEVEL_INFO][2020-02-29 20:53:46]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-02-29 20:53:46]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-02-29 20:53:46]MainFrm.cs 143: load friends list success
+[LOG_LEVEL_INFO][2020-02-29 20:56:53]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-02-29 20:56:53]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-02-29 20:56:53]MainFrm.cs 143: load friends list success
+[LOG_LEVEL_INFO][2020-02-29 21:01:33]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-02-29 21:01:33]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-02-29 21:01:33]MainFrm.cs 143: load friends list success
+[LOG_LEVEL_INFO][2020-02-29 21:30:03]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-02-29 21:30:03]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-02-29 21:30:03]MainFrm.cs 143: load friends list success
+[LOG_LEVEL_INFO][2020-02-29 21:31:38]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-02-29 21:31:38]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-02-29 21:31:38]MainFrm.cs 143: load friends list success
+[LOG_LEVEL_INFO][2020-03-01 09:30:36]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-01 09:30:36]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-01 09:30:36]MainFrm.cs 143: load friends list success
+[LOG_LEVEL_INFO][2020-03-01 10:43:44]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-01 10:43:44]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-01 10:43:44]MainFrm.cs 143: load friends list success
+[LOG_LEVEL_INFO][2020-03-01 10:51:48]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-01 10:51:48]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-01 10:51:48]MainFrm.cs 143: load friends list success
+[LOG_LEVEL_ERROR][2020-03-01 11:07:06]LoginFrm.cs 46: LogFrm: username or passowrd are incorrect
+[LOG_LEVEL_ERROR][2020-03-01 11:07:09]LoginFrm.cs 46: LogFrm: username or passowrd are incorrect
+[LOG_LEVEL_INFO][2020-03-01 11:07:12]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-01 11:07:12]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-01 11:07:12]MainFrm.cs 143: load friends list success
+[LOG_LEVEL_INFO][2020-03-01 11:16:56]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-01 11:16:56]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-01 11:16:56]MainFrm.cs 143: load friends list success
+[LOG_LEVEL_INFO][2020-03-01 11:24:18]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-01 11:24:18]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-01 11:24:18]MainFrm.cs 143: load friends list success
+[LOG_LEVEL_INFO][2020-03-01 11:26:44]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-01 11:26:44]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-01 11:26:44]MainFrm.cs 143: load friends list success
+[LOG_LEVEL_INFO][2020-03-01 11:28:07]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-01 11:28:07]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-01 11:28:07]MainFrm.cs 143: load friends list success
+[LOG_LEVEL_INFO][2020-03-01 11:42:27]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-01 11:42:27]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-01 11:42:28]MainFrm.cs 143: load friends list success
+[LOG_LEVEL_INFO][2020-03-01 12:40:03]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-01 12:40:03]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-01 12:40:03]MainFrm.cs 149: load friends list success
+[LOG_LEVEL_INFO][2020-03-01 12:55:53]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-01 12:55:53]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-01 12:55:53]MainFrm.cs 150: load friends list success
+[LOG_LEVEL_INFO][2020-03-01 12:57:00]MainFrmTopCallback.cs 258: status changed:OffLine -> Online
+[LOG_LEVEL_INFO][2020-03-01 12:58:57]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-01 12:58:57]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-01 12:58:57]MainFrm.cs 150: load friends list success
+[LOG_LEVEL_INFO][2020-03-01 12:59:10]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-01 12:59:10]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-01 12:59:10]MainFrm.cs 150: load friends list success
+[LOG_LEVEL_INFO][2020-03-01 12:59:23]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-01 12:59:23]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-01 12:59:23]MainFrm.cs 150: load friends list success
+[LOG_LEVEL_INFO][2020-03-01 12:59:36]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-01 12:59:36]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-01 12:59:36]MainFrm.cs 150: load friends list success
+[LOG_LEVEL_INFO][2020-03-01 12:59:48]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-01 12:59:48]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-01 12:59:48]MainFrm.cs 150: load friends list success
+[LOG_LEVEL_INFO][2020-03-01 12:59:55]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-01 12:59:55]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-01 12:59:55]MainFrm.cs 150: load friends list success
+[LOG_LEVEL_INFO][2020-03-01 13:00:05]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-01 13:00:05]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-01 13:00:05]MainFrm.cs 150: load friends list success
+[LOG_LEVEL_INFO][2020-03-01 13:29:40]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-01 13:29:40]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-01 13:29:40]MainFrm.cs 161: load friends list success
+[LOG_LEVEL_INFO][2020-03-01 14:47:55]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-01 14:47:55]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-01 14:47:55]MainFrm.cs 161: load friends list success
+[LOG_LEVEL_INFO][2020-03-01 14:59:51]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-01 14:59:51]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-01 14:59:51]MainFrm.cs 161: load friends list success
+[LOG_LEVEL_INFO][2020-03-01 15:21:01]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-01 15:21:01]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-01 15:21:02]MainFrm.cs 161: load friends list success
+[LOG_LEVEL_INFO][2020-03-01 15:22:16]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-01 15:22:16]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-01 15:22:16]MainFrm.cs 161: load friends list success
+[LOG_LEVEL_INFO][2020-03-01 15:24:26]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-01 15:24:26]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-01 15:24:26]MainFrm.cs 161: load friends list success
+[LOG_LEVEL_INFO][2020-03-01 15:26:20]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-01 15:26:20]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-01 15:26:20]MainFrm.cs 161: load friends list success
+[LOG_LEVEL_INFO][2020-03-01 20:23:47]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-01 20:23:47]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-01 20:58:27]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-01 20:58:27]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-01 20:58:27]MainFrmSecCallback.cs 86: load friends list success
+[LOG_LEVEL_INFO][2020-03-01 21:53:55]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-01 21:53:55]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-01 21:54:45]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-01 21:54:45]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-01 21:54:48]MainFrmSecCallback.cs 86: load friends list success
+[LOG_LEVEL_INFO][2020-03-01 22:57:55]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-01 22:57:55]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-01 22:57:56]MainFrmSecCallback.cs 86: load friends list success
+[LOG_LEVEL_INFO][2020-03-01 23:02:10]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-01 23:02:10]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-01 23:02:10]MainFrmSecCallback.cs 86: load friends list success
+[LOG_LEVEL_INFO][2020-03-01 23:03:17]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-01 23:03:17]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-01 23:03:18]MainFrmSecCallback.cs 86: load friends list success
+[LOG_LEVEL_INFO][2020-03-02 23:48:55]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-02 23:48:55]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-02 23:48:55]MainFrm.cs 141: load friends list success
+[LOG_LEVEL_INFO][2020-03-02 23:53:00]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-02 23:53:00]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-02 23:53:00]MainFrm.cs 141: load friends list success
+[LOG_LEVEL_INFO][2020-03-02 23:57:19]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-02 23:57:19]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-02 23:57:19]MainFrm.cs 141: load friends list success
+[LOG_LEVEL_INFO][2020-03-03 00:00:38]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-03 00:00:38]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-03 00:00:39]MainFrm.cs 141: load friends list success
+[LOG_LEVEL_INFO][2020-03-03 00:00:41]MainFrm.cs 250: self head click
+[LOG_LEVEL_INFO][2020-03-03 23:46:13]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-03 23:46:13]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-03 23:46:13]MainFrm.cs 141: load friends list success
+[LOG_LEVEL_INFO][2020-03-03 23:56:55]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-03 23:56:55]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-03 23:56:55]MainFrm.cs 141: load friends list success
+[LOG_LEVEL_INFO][2020-03-03 23:57:01]MainFrmTopCallback.cs 258: status changed:Online -> Away
+[LOG_LEVEL_INFO][2020-03-03 23:57:03]MainFrmTopCallback.cs 258: status changed:Away -> Online
+[LOG_LEVEL_INFO][2020-03-03 23:57:05]MainFrmTopCallback.cs 258: status changed:Online -> DontDisturb
+[LOG_LEVEL_INFO][2020-03-04 21:52:09]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-04 21:52:09]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-04 21:52:09]MainFrm.cs 141: load friends list success
+[LOG_LEVEL_INFO][2020-03-04 21:56:02]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-04 21:56:02]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-04 21:56:02]MainFrm.cs 141: load friends list success
+[LOG_LEVEL_INFO][2020-03-04 22:04:57]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-04 22:04:57]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-04 22:04:57]MainFrm.cs 141: load friends list success
+[LOG_LEVEL_INFO][2020-03-04 22:14:40]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-04 22:14:40]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-04 22:14:40]MainFrm.cs 141: load friends list success
+[LOG_LEVEL_INFO][2020-03-04 22:15:03]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-04 22:15:03]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-04 22:15:03]MainFrm.cs 141: load friends list success
+[LOG_LEVEL_INFO][2020-03-04 23:15:03]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-04 23:15:03]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-04 23:15:04]MainFrm.cs 141: load friends list success
+[LOG_LEVEL_INFO][2020-03-04 23:16:30]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-04 23:16:30]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-04 23:18:09]MainFrm.cs 141: load friends list success
+[LOG_LEVEL_INFO][2020-03-04 23:22:23]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-04 23:22:23]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-04 23:22:26]MainFrm.cs 141: load friends list success
+[LOG_LEVEL_INFO][2020-03-04 23:22:42]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-04 23:22:42]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-04 23:24:23]MainFrm.cs 141: load friends list success
+[LOG_LEVEL_INFO][2020-03-04 23:37:11]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-04 23:37:11]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-04 23:37:12]MainFrm.cs 141: load friends list success
+[LOG_LEVEL_INFO][2020-03-04 23:40:40]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-04 23:40:40]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-04 23:40:41]MainFrm.cs 141: load friends list success
+[LOG_LEVEL_INFO][2020-03-05 23:27:14]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-05 23:27:14]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-05 23:27:14]MainFrm.cs 141: load friends list success
+[LOG_LEVEL_INFO][2020-03-05 23:28:22]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-05 23:28:22]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-05 23:28:22]MainFrm.cs 141: load friends list success
+[LOG_LEVEL_INFO][2020-03-05 23:30:50]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-05 23:30:50]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-05 23:30:50]MainFrm.cs 141: load friends list success
+[LOG_LEVEL_INFO][2020-03-05 23:37:37]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-05 23:37:37]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-05 23:37:38]MainFrm.cs 141: load friends list success
+[LOG_LEVEL_INFO][2020-03-05 23:38:17]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-05 23:38:17]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-05 23:38:17]MainFrm.cs 141: load friends list success
+[LOG_LEVEL_INFO][2020-03-05 23:39:47]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-05 23:39:47]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-05 23:39:48]MainFrm.cs 141: load friends list success
+[LOG_LEVEL_INFO][2020-03-05 23:40:28]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-05 23:40:28]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-05 23:40:28]MainFrm.cs 141: load friends list success
+[LOG_LEVEL_INFO][2020-03-07 21:56:52]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-07 21:56:52]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-07 21:57:00]MainFrm.cs 141: load friends list success
+[LOG_LEVEL_INFO][2020-03-07 21:57:25]MainFrmTopCallback.cs 246: groupname changed:haha -> 123
+[LOG_LEVEL_INFO][2020-03-07 21:57:37]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-07 21:57:37]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-07 21:57:42]MainFrm.cs 141: load friends list success
+[LOG_LEVEL_INFO][2020-03-07 22:22:39]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-07 22:22:39]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-07 22:22:40]MainFrm.cs 141: load friends list success
+[LOG_LEVEL_INFO][2020-03-07 22:24:00]MainFrmTopCallback.cs 175: signature changed:wahahakkkk -> wa
+[LOG_LEVEL_INFO][2020-03-07 22:24:18]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-07 22:24:18]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-07 22:24:18]MainFrm.cs 141: load friends list success
+[LOG_LEVEL_INFO][2020-03-07 22:25:00]MainFrm.cs 250: self head click
+[LOG_LEVEL_INFO][2020-03-07 22:25:32]MainFrmTopCallback.cs 275: nickname changed:wahaha -> qshzhang
+[LOG_LEVEL_INFO][2020-03-07 22:30:52]MainFrm.cs 250: self head click
+[LOG_LEVEL_INFO][2020-03-07 22:30:55]MainFrm.cs 250: self head click
+[LOG_LEVEL_INFO][2020-03-07 22:31:13]UserInfoFrm.cs 140: self head changed
+[LOG_LEVEL_INFO][2020-03-07 22:31:18]MainFrm.cs 250: self head click
+[LOG_LEVEL_INFO][2020-03-08 00:10:41]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-08 00:10:41]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-08 00:10:42]MainFrm.cs 141: load friends list success
+[LOG_LEVEL_INFO][2020-03-08 11:33:28]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-08 11:33:28]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-08 11:33:28]MainFrm.cs 124: load friends list success
+[LOG_LEVEL_INFO][2020-03-08 11:33:46]MainFrm.cs 218: self head click
+[LOG_LEVEL_INFO][2020-03-08 11:33:54]MainFrmTopCallback.cs 164: signature changed:wa -> wa
+[LOG_LEVEL_INFO][2020-03-08 11:35:27]MainFrmTopCallback.cs 273: status changed:Online -> Busy
+[LOG_LEVEL_INFO][2020-03-08 11:35:54]MainFrmTopCallback.cs 164: signature changed:wa -> hello
+[LOG_LEVEL_INFO][2020-03-08 11:42:03]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-08 11:42:03]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-08 11:42:03]MainFrm.cs 124: load friends list success
+[LOG_LEVEL_INFO][2020-03-08 11:53:39]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-08 11:53:39]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-08 11:53:39]MainFrm.cs 124: load friends list success
+[LOG_LEVEL_INFO][2020-03-08 11:53:42]MainFrm.cs 216: self head click
+[LOG_LEVEL_INFO][2020-03-08 11:55:08]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-08 11:55:08]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-08 11:55:08]MainFrm.cs 124: load friends list success
+[LOG_LEVEL_INFO][2020-03-08 12:41:43]UserInfoFrm.cs 140: self head changed
+[LOG_LEVEL_INFO][2020-03-08 12:42:18]UserInfoFrm.cs 140: self head changed
+[LOG_LEVEL_INFO][2020-03-08 12:42:45]UserInfoFrm.cs 140: self head changed
+[LOG_LEVEL_INFO][2020-03-08 12:43:22]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-08 12:43:22]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-08 12:43:23]MainFrm.cs 121: load friends list success
+[LOG_LEVEL_INFO][2020-03-08 12:44:07]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-08 12:44:07]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-08 12:44:08]MainFrm.cs 121: load friends list success
+[LOG_LEVEL_INFO][2020-03-08 12:46:28]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-08 12:46:28]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-08 12:46:29]MainFrm.cs 121: load friends list success
+[LOG_LEVEL_INFO][2020-03-08 13:08:24]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-08 13:08:25]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-08 13:08:25]MainFrm.cs 121: load friends list success
+[LOG_LEVEL_INFO][2020-03-08 13:08:46]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-08 13:08:46]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-08 13:08:46]MainFrm.cs 121: load friends list success
+[LOG_LEVEL_ERROR][2020-03-08 13:08:59]LoginFrm.cs 53: LogFrm: username or passowrd are incorrect
+[LOG_LEVEL_INFO][2020-03-08 13:09:05]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-08 13:09:05]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-08 13:09:06]MainFrm.cs 121: load friends list success
+[LOG_LEVEL_ERROR][2020-03-08 13:09:29]LoginFrm.cs 53: LogFrm: username or passowrd are incorrect
+[LOG_LEVEL_INFO][2020-03-08 13:09:39]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-08 13:09:39]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-08 13:09:40]MainFrm.cs 121: load friends list success
+[LOG_LEVEL_INFO][2020-03-08 13:10:05]MainFrm.cs 213: self head click
+[LOG_LEVEL_INFO][2020-03-08 13:10:11]MainFrmTopCallback.cs 161: signature changed:cccccc -> cccccc
+[LOG_LEVEL_INFO][2020-03-08 13:11:48]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-08 13:11:48]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-08 13:11:48]MainFrm.cs 121: load friends list success
+[LOG_LEVEL_INFO][2020-03-08 22:39:43]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-08 22:39:43]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-08 22:39:43]MainFrm.cs 121: load friends list success
+[LOG_LEVEL_INFO][2020-03-08 22:39:46]MainFrm.cs 213: self head click
+[LOG_LEVEL_INFO][2020-03-08 22:43:11]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-08 22:43:11]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-08 22:43:12]MainFrm.cs 121: load friends list success
+[LOG_LEVEL_INFO][2020-03-08 23:02:25]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-08 23:02:25]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-08 23:02:25]MainFrm.cs 119: load friends list success
+[LOG_LEVEL_INFO][2020-03-08 23:11:29]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-08 23:11:29]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-08 23:11:30]MainFrm.cs 119: load friends list success
+[LOG_LEVEL_INFO][2020-03-08 23:11:49]MainFrm.cs 211: self head click
+[LOG_LEVEL_INFO][2020-03-08 23:29:41]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-08 23:29:41]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-08 23:29:41]MainFrm.cs 119: load friends list success
+[LOG_LEVEL_INFO][2020-03-08 23:29:43]MainFrm.cs 211: self head click
+[LOG_LEVEL_INFO][2020-03-08 23:52:04]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-08 23:52:04]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-08 23:52:05]MainFrm.cs 119: load friends list success
+[LOG_LEVEL_INFO][2020-03-09 00:55:26]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-09 00:55:26]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-09 00:55:26]MainFrm.cs 119: load friends list success
+[LOG_LEVEL_INFO][2020-03-09 00:56:56]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-09 00:56:56]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-09 00:56:57]MainFrm.cs 119: load friends list success
+[LOG_LEVEL_INFO][2020-03-09 00:57:32]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-09 00:57:32]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-09 00:57:33]MainFrm.cs 119: load friends list success
+[LOG_LEVEL_INFO][2020-03-09 00:57:48]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-09 00:57:48]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-09 00:57:48]MainFrm.cs 119: load friends list success
+[LOG_LEVEL_INFO][2020-03-09 00:58:08]MainFrm.cs 211: self head click
+[LOG_LEVEL_INFO][2020-03-09 01:05:35]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-09 01:05:35]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-09 01:05:36]MainFrm.cs 119: load friends list success
+[LOG_LEVEL_INFO][2020-03-09 01:09:03]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-09 01:09:03]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-09 01:09:03]MainFrm.cs 119: load friends list success
+[LOG_LEVEL_INFO][2020-03-09 01:12:12]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-09 01:12:12]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-09 01:12:13]MainFrm.cs 119: load friends list success
+[LOG_LEVEL_INFO][2020-03-09 23:18:55]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-09 23:18:55]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-09 23:18:56]MainFrm.cs 120: load friends list success
+[LOG_LEVEL_INFO][2020-03-09 23:19:27]MainFrm.cs 213: self head click
+[LOG_LEVEL_INFO][2020-03-09 23:20:03]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-09 23:20:03]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-09 23:20:04]MainFrm.cs 120: load friends list success
+[LOG_LEVEL_INFO][2020-03-09 23:20:13]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-09 23:20:13]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-09 23:20:13]MainFrm.cs 120: load friends list success
+[LOG_LEVEL_INFO][2020-03-09 23:23:09]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-09 23:23:09]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-09 23:23:09]MainFrm.cs 120: load friends list success
+[LOG_LEVEL_INFO][2020-03-09 23:27:04]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-09 23:27:04]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-09 23:27:04]MainFrm.cs 120: load friends list success
+[LOG_LEVEL_INFO][2020-03-09 23:30:28]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-09 23:30:28]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-09 23:30:28]MainFrm.cs 120: load friends list success
+[LOG_LEVEL_INFO][2020-03-09 23:32:58]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-09 23:32:58]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-09 23:32:58]MainFrm.cs 120: load friends list success
+[LOG_LEVEL_INFO][2020-03-09 23:40:01]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-09 23:40:01]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-09 23:40:02]MainFrm.cs 120: load friends list success
+[LOG_LEVEL_INFO][2020-03-09 23:43:03]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-09 23:43:03]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-09 23:43:03]MainFrm.cs 120: load friends list success
+[LOG_LEVEL_INFO][2020-03-09 23:46:24]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-09 23:46:24]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-09 23:46:25]MainFrm.cs 120: load friends list success
+[LOG_LEVEL_INFO][2020-03-09 23:50:41]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-09 23:50:41]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-09 23:50:42]MainFrm.cs 120: load friends list success
+[LOG_LEVEL_INFO][2020-03-10 00:05:56]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-10 00:05:56]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-10 00:05:56]MainFrm.cs 120: load friends list success
