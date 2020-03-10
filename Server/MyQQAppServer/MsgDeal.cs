@@ -259,6 +259,14 @@ namespace MyQQAppServer
 
                 result.JsonAddListObjectElement(GlobalValue.ResultStr, groupInfos.ConvertAll(s => (object)s));
             }
+            else if(msgInfo.MsgType == CSMessageType.QueryAccountTotalNum)
+            {
+                int cnt = dBOperator.QueryAccountTotalNum();
+
+                cSMessageType = CSMessageType.QueryAccountTotalNum;
+
+                result.JsonAddIntElement(GlobalValue.ResultStr, cnt);
+            }
             SendMsgToClient(result, cSMessageType);
         }
 

@@ -282,6 +282,14 @@ namespace MyQQApp.common
             return JsonToGroupInfoTable(new Json(cSMsg.MsgContent));
         }
 
+        public int QueryAccountTotalNum()
+        {
+            Json json = new Json();
+            CSMsgInfo cSMsg = QueryDataFromServer(json, CSMessageType.QueryAccountTotalNum);
+
+            return Convert.ToInt32(new Json(cSMsg.MsgContent).JsonGetValueByKey(GlobalValue.ResultStr));
+        }
+
         #endregion
 
 

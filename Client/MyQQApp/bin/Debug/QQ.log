@@ -647,3 +647,10 @@
 [LOG_LEVEL_INFO][2020-03-10 00:05:56]MainFrmDealMsg.cs 39: Init udp success
 [LOG_LEVEL_INFO][2020-03-10 00:05:56]MainFrmDealMsg.cs 26: Init tcp success
 [LOG_LEVEL_INFO][2020-03-10 00:05:56]MainFrm.cs 120: load friends list success
+[LOG_LEVEL_INFO][2020-03-10 21:54:22]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-10 21:54:22]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-10 21:54:23]MainFrm.cs 120: load friends list success
+[LOG_LEVEL_INFO][2020-03-10 22:36:08]MainFrmDealMsg.cs 39: Init udp success
+[LOG_LEVEL_INFO][2020-03-10 22:36:08]MainFrmDealMsg.cs 26: Init tcp success
+[LOG_LEVEL_INFO][2020-03-10 22:36:08]MainFrm.cs 120: load friends list success
+[LOG_LEVEL_INFO][2020-03-10 22:36:12]MainFrm.cs 213: self head click

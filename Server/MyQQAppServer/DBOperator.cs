@@ -78,7 +78,7 @@ namespace MyQQAppServer
 
         public Boolean InsertLoginTab(string id, string pwd)
         {
-            string sql = "insert into login(account, password, publicip, localip, udpport, tcpport) values(N'" + id + "',N'" + pwd + "',N'" + "127.0.0.1" + "', " + "',N'" + "127.0.0.1" + "'"+ 0 + ", " + 0 + " )";
+            string sql = "insert into login(account, password, publicip, localip, udpport, tcpport) values(N'" + id + "',N'" + pwd + "',N'" + "127.0.0.1" + "', " + "N'" + "127.0.0.1" + "', "+ 0 + ", " + 0 + " )";
             return _InsertOrUpdateData(sql);
         }
 
@@ -505,6 +505,16 @@ namespace MyQQAppServer
                 result.Add(friend);
             }
             return result;
+        }
+
+        public int QueryAccountTotalNum()
+        {
+            string sql = "select count(*) as cnt from login";
+            DataSet dataSet = _QueryData(sql);
+            if (dataSet == null || dataSet.Tables == null || dataSet.Tables.Count == 0 ||
+                dataSet.Tables[0] == null || dataSet.Tables[0].Rows.Count == 0) return 0;
+
+            return Convert.ToInt32(dataSet.Tables[0].Rows[0]["cnt"].ToString());
         }
     }
 }

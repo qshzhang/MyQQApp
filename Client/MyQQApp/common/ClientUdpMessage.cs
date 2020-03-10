@@ -39,6 +39,7 @@ namespace MyQQApp.common
         InsertUserInfoTab,
         InsertGroupInfo,
         QueryGroupInfoByAccount,
+        QueryAccountTotalNum,
         END
     }
 

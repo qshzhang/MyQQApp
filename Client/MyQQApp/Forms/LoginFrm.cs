@@ -62,7 +62,9 @@ namespace MyQQApp.Forms
 
         private void lbRegister_Click(object sender, EventArgs e)
         {
-            RegisterFrm registerFrm = new RegisterFrm("100005");
+            int num = GlobalValue.DataFromServer.QueryAccountTotalNum();
+            RegisterFrm registerFrm = new RegisterFrm((100000 + num + 1).ToString());
+            //RegisterFrm registerFrm = new RegisterFrm("100004");
             registerFrm.RegisterAccountCallback += OnRegisterAccount;
             registerFrm.Show();
         }

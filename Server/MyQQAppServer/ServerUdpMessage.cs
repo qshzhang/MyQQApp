@@ -39,6 +39,7 @@ namespace MyQQAppServer
         InsertUserInfoTab,
         InsertGroupInfo,
         QueryGroupInfoByAccount,
+        QueryAccountTotalNum,
         END
     }
     public class NetAddr
